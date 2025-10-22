@@ -4,39 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Github atv</title>
+
+    <!-- icone-->
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/icon_idea/icons8-ideia-ios-17-outlined-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/icon_idea/icons8-ideia-ios-17-outlined-32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icons/icon_idea/icons8-ideia-ios-17-outlined-96.png">
+    <!-- Windows Tiles -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../icons/icon_idea/icons8-ideia-ios-17-outlined-150.png">
+    <style>
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Respostas sobre Gerência de Configuração e Git</h1>
+    <nav>
+        <a href="../index.html">Navegação</a>
+    </nav>
+    <hr>
+    <h1>Atividade sobre o Git/GitHub</h1>
     <hr>
 
-    <h2>1. Diferencie o conceito de Gerência de Configuração do Controle de Versão (Git). Qual o objetivo principal de
-        cada um?</h2>
-    <p><b>Gerência de Configuração:</b> é o processo amplo de <em>gerenciar mudanças em produtos de software</em>,
-        incluindo código, documentação, requisitos e ambiente. Seu objetivo é assegurar consistência e integridade de
-        todos os artefatos ao longo do desenvolvimento.</p>
-    <p><b>Controle de Versão (Git):</b> é uma ferramenta específica dentro da gerência de configuração que <em>registra
-            histórico de alterações no código</em>, permitindo voltar a versões anteriores, comparar mudanças e
-        colaborar entre desenvolvedores. O objetivo principal é controlar alterações no código e facilitar colaboração.
+    <h3>1. Diferencie o conceito de Gerência de Configuração do Controle de Versão (Git). Qual o objetivo principal de
+        cada um?</h3>
+
+    <p><b>Gerência de Configuração:</b><br>
+        É o processo amplo de <em>gerenciar mudanças em produtos de software</em>, incluindo código, documentação,
+        requisitos e ambiente.<br>
+        Seu objetivo é assegurar consistência e integridade de todos os artefatos ao longo do desenvolvimento.
+    </p>
+
+    <p><b>Controle de Versão (Git):</b><br>
+        Um sistema de controle de versão (<b>VCS</b>), como o <b>Git</b>, é uma ferramenta da <em>gerência de
+            configuração</em> que registra alterações em arquivos de código.<br>
+        Permite criar <b>commits</b>, recuperar versões anteriores, usar <b>branches</b> e integrar alterações com
+        <b>merge</b>, colaborando remotamente.<br>
+        O <b>VCS</b> mantém o histórico do código, facilita a integração da equipe e é chamado também de <em>SCM</em> ou
+        <em>RCS</em>.<br>
+        Seu objetivo é organizar o histórico, garantir consistência do código, reduzir conflitos e facilitar a
+        colaboração.
     </p>
     <hr>
 
-    <h2>2. No Git, cite e explique a função dos seguintes conceitos neste fluxo: Commit, Branch e Merge.</h2>
-    <p><b>Commit:</b> representa um <em>snapshot do código em determinado momento</em>, contendo as alterações
-        realizadas e uma mensagem descritiva. Ele permite registrar o histórico do projeto.</p>
-    <p><b>Branch:</b> é um <em>ramo separado do código</em> que permite desenvolver funcionalidades ou correções
-        isoladamente, sem afetar a versão principal (main/master).</p>
-    <p><b>Merge:</b> é a <em>junção de branches diferentes</em>, integrando as alterações de um branch ao outro,
-        resolvendo conflitos caso necessário.</p>
+    <h3>2. No Git, cite e explique a função dos seguintes conceitos neste fluxo: Commit, Branch e Merge.</h3>
+
+    <p><b>Commit:</b><br>
+        Representa um <em>snapshot do código em determinado momento</em>, contendo as alterações realizadas e uma
+        mensagem descritiva.<br>
+        Ele permite registrar o histórico do projeto.
+    </p>
+
+    <p><b>Branch:</b><br>
+        É um <em>ramo separado do código</em> que permite desenvolver funcionalidades ou correções isoladamente, sem
+        afetar a versão principal (main/master).
+    </p>
+
+    <p><b>Merge:</b><br>
+        É a <em>junção de branches diferentes</em>, integrando as alterações de um branch ao outro, resolvendo conflitos
+        caso necessário.
+    </p>
     <hr>
 
-    <h2>3. Qual a importância da rastreabilidade em um projeto, e qual ferramenta de controle de versão você utilizaria
-        para gerenciar o histórico de alterações?</h2>
-    <p>A rastreabilidade permite <em>seguir cada mudança, identificar quem fez, quando e por quê</em>, essencial para
-        auditoria, manutenção e qualidade do software.</p>
-    <p><b>Ferramenta recomendada:</b> Git, por registrar <em>histórico completo de commits, branches e merges</em>,
-        permitindo rastrear alterações de forma eficiente e colaborativa.</p>
-    <hr>
+    <h3>3. Qual a importância da rastreabilidade em um projeto, e qual ferramenta de controle de versão você utilizaria
+        para gerenciar o histórico de alterações?</h3>
+
+    <p>
+        A rastreabilidade permite <em>seguir cada mudança, identificar quem fez, quando e por quê</em>, essencial para
+        auditoria, manutenção e qualidade do software.
+    </p>
+
+    <p><b>Ferramenta recomendada:</b><br>
+        Git, por registrar <em>histórico completo de commits, branches e merges</em>, permitindo rastrear alterações de
+        forma eficiente e colaborativa.
+    </p>
 </body>
 
 </html>
